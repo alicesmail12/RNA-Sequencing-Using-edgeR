@@ -13,7 +13,7 @@ suppressPackageStartupMessages({
 # Set directory
 workingDir={workingDir}
 setwd(workingDir)
-source('RNAseq-m1661-Functions.R')
+source('RNAseq-Functions.R')
 
 # Get count file
 countMatrix <- read.table(paste0(workingDir, 'readcounts.txt'), fill=TRUE, header=TRUE) 
